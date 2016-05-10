@@ -64,7 +64,7 @@ else if (t=== "rage"){
 }//end of else if
  
 else{
-  alert("good answer");
+  alert("bad answer");
   
 }//end of else
   
