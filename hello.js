@@ -1,4 +1,5 @@
-var x = 1;
+var x = 1
+;
 var y = 2;
 var z = 3;
 var kento = "hi ";
@@ -7,7 +8,7 @@ function b() {
   var j = prompt("what is your name");
 
   if (j === "Kento") {
-    alert("sorry this game is temporarily closed");
+    alert("You win");
   } //end of if
   else if (j === "lucas") {
     alert("sorry this game is temporarily closed");
@@ -38,7 +39,22 @@ if (t=== "play again"){
   if (d=== "2573"){
   alert("good answer");
  
-  alert("you win");
+    var fg = prompt(" what is 36x36?") 
+  
+  if (fg=== "1296"){
+  alert("good answer");
+ 
+ var π = prompt(" what is 29x87?") 
+  
+  if (π=== "2523"){
+  alert("good answer");
+ 
+ alert("you win")
+  }
+  
+    else{alert("bad answer")}
+  }
+  
   }
   
     else{alert("bad answer")}
