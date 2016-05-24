@@ -4,6 +4,7 @@ $( document ).ready(function() {
 var score=0 
 $("#box2").hide(); //hides apple
 
+
 $("#box3").hide(); //hides a thing
 $("#box4").hide(); //hides banana
 $("#box5").hide(); //hides astuff
@@ -15,6 +16,7 @@ $("#buttonkeith4").hide();
 $("#buttonkeith5").hide();
 $("#buttonkeith6").hide();
 $("#buttonnewestsofar").hide();
+$("#buttonscore").show();
 
 //appear example
 
@@ -22,7 +24,7 @@ $("#buttonnewestsofar").hide();
 //this opens the fridge
 $("#buttonkeith").click(function() {
   $("body").css("backgroundImage", "url(http://thumbs.dreamstime.com/x/empty-fridge-4468901.jpg)")
-  document.write("score="score)
+
   $("#buttonkeith").hide();
   $("#box1").hide();
   $("#button2").hide();
@@ -34,6 +36,7 @@ $("#buttonkeith").click(function() {
   $("#buttonkeith5").show();
   $("#buttonkeith6").show();
    $("#buttonnewestsofar").show();
+
 });
 $("#buttonkeith2").click(function() {
   $("#box2").show();
