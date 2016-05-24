@@ -1,72 +1,132 @@
 
 $( document ).ready(function() {
 
-var score=0 
 $("#box2").hide(); //hides apple
-
-
 $("#box3").hide(); //hides a thing
 $("#box4").hide(); //hides banana
 $("#box5").hide(); //hides astuff
 $("#box6").hide(); //hides a button
+$("#box7").hide();
+$("#box8").hide();
+$("#box9").hide();
+$("#box10").hide();
+$("#box11").hide();
+$("#box12").hide();
+$("#box13").hide();
 
 $("#buttonkeith2").hide();
 $("#buttonkeith3").hide();
 $("#buttonkeith4").hide();
 $("#buttonkeith5").hide();
 $("#buttonkeith6").hide();
+$("#buttonkeith7").hide();
+$("#buttonkeith8").hide();
+$("#buttonkeith9").hide();
+$("#buttonkeith10").hide();
+$("#buttonkeith11").hide();
+$("#buttonkeith12").hide();
+$("#buttonkeith13").hide();
 $("#buttonnewestsofar").hide();
 $("#buttonscore").show();
-
 //appear example
-
 
 //this opens the fridge
 $("#buttonkeith").click(function() {
   $("body").css("backgroundImage", "url(http://thumbs.dreamstime.com/x/empty-fridge-4468901.jpg)")
-
   $("#buttonkeith").hide();
-  $("#box1").hide();
-  $("#button2").hide();
-  $("#button3").hide();
-  $("#button1").hide();
   $("#buttonkeith2").show();
   $("#buttonkeith3").show();
   $("#buttonkeith4").show();
   $("#buttonkeith5").show();
   $("#buttonkeith6").show();
-   $("#buttonnewestsofar").show();
-
+    $("#buttonkeith7").show();
+  $("#buttonkeith8").show();
+  $("#buttonkeith10").show();
+  $("#buttonkeith11").show();
+  $("#buttonkeith12").show();
+  $("#buttonkeith13").show();
+  $("#buttonnewestsofar").show();
 });
 $("#buttonkeith2").click(function() {
   $("#box2").show();
   $("#buttonkeith2").hide();
-  var score= score+1;
+  score--;
+  alert("you don't find apples in fridges!")
 
 });
 $("#buttonkeith3").click(function() {
   $("#box3").show();
   $("#buttonkeith3").hide();
-  var score= score+1;
+  score--;
+  alert("you don't find bananas in fridges!")
 });
 $("#buttonkeith4").click(function() {
   $("#box4").show();
   $("#buttonkeith4").hide();
-  var score= score+1;
+  score--;
+  alert("you don't find people in fridges!")
 });
 $("#buttonkeith5").click(function() {
   $("#box5").show();
   $("#buttonkeith5").hide();
-  var score= score+1;
+  score++;
 });
 $("#buttonkeith6").click(function() {
   $("#box6").show();
   $("#buttonkeith6").hide();
-  var score= score+1;
-  alert("you win")
+  score++;
+  
+});
+$("#buttonkeith7").click(function() {
+  $("#box7").show();
+  $("#buttonkeith7").hide();
+  score++;
+  
+});
+$("#buttonkeith8").click(function() {
+  $("#box8").show();
+  $("#buttonkeith8").hide();
+  score++;
+  
+});
+$("#buttonkeith9").click(function() {
+  $("#box9").show();
+  $("#buttonkeith9").hide();
+  score++;
+  
+});
+$("#buttonkeith10").click(function() {
+  $("#box10").show();
+  $("#buttonkeith10").hide();
+  score++;
+  
+});
+$("#buttonkeith11").click(function() {
+  $("#box11").show();
+  $("#buttonkeith11").hide();
+  score++;
+  
+});
+$("#buttonkeith12").click(function() {
+  $("#box12").show();
+  $("#buttonkeith12").hide();
+  score++;
+  
+});
+$("#buttonkeith13").click(function() {
+  $("#box13").show();
+  $("#buttonkeith13").hide();
+  score++;
+  
 });
 $("#buttonnewestsofar").click(function() {
-window.open("/Game/index.html")
+window.open("index.html")
+});
+$("#buttonscore").click(function() {
+alert("Your score is "+score)
 });
 
+
+
 });
+

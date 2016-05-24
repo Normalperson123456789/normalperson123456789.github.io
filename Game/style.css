@@ -148,6 +148,16 @@ display: inline;
     font-size:0.6em;
 }
 
+#box1{
+text-align: center;
+font-size: 5000px;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  
+
+
+}
 body{
   background-image:url("http://www.ikea.com/ms/media/cho_room/20153/kitchen/20153_cosk07a/20153_cosk07a_01_PH124156.jpg");
   background-height:570px;
