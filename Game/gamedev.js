@@ -1,6 +1,7 @@
 
 $( document ).ready(function() {
 
+var score=0;
 $("#box2").hide(); //hides apple
 $("#box3").hide(); //hides a thing
 $("#box4").hide(); //hides banana
@@ -51,20 +52,20 @@ $("#buttonkeith2").click(function() {
   $("#box2").show();
   $("#buttonkeith2").hide();
   score--;
-  alert("you don't find apples in fridges!")
+  alert("you don't find apples in fridges!");
 
 });
 $("#buttonkeith3").click(function() {
   $("#box3").show();
   $("#buttonkeith3").hide();
   score--;
-  alert("you don't find bananas in fridges!")
+  alert("you don't find bananas in fridges!");
 });
 $("#buttonkeith4").click(function() {
   $("#box4").show();
   $("#buttonkeith4").hide();
   score--;
-  alert("you don't find people in fridges!")
+  alert("you don't find people in fridges!");
 });
 $("#buttonkeith5").click(function() {
   $("#box5").show();
@@ -120,10 +121,10 @@ $("#buttonkeith13").click(function() {
   
 });
 $("#buttonnewestsofar").click(function() {
-window.open("index.html")
+window.open("index.html");
 });
 $("#buttonscore").click(function() {
-alert("Your score is "+score)
+alert("Your score is "+score);
 });
 
 
