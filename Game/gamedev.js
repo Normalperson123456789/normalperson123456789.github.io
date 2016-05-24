@@ -13,7 +13,7 @@ $("#buttonkeith4").hide();
 $("#buttonkeith5").hide();
 $("#buttonkeith6").hide();
 $("#buttonnewestsofar").hide();
-document.write(score)
+document.write("score="score)
 //appear example
 
 
