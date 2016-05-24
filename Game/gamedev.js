@@ -1,4 +1,6 @@
+
 $( document ).ready(function() {
+
 var score=0 
 $("#box2").hide(); //hides apple
 
@@ -13,13 +15,14 @@ $("#buttonkeith4").hide();
 $("#buttonkeith5").hide();
 $("#buttonkeith6").hide();
 $("#buttonnewestsofar").hide();
-document.write("score="score)
+
 //appear example
 
 
 //this opens the fridge
 $("#buttonkeith").click(function() {
   $("body").css("backgroundImage", "url(http://thumbs.dreamstime.com/x/empty-fridge-4468901.jpg)")
+  document.write("score="score)
   $("#buttonkeith").hide();
   $("#box1").hide();
   $("#button2").hide();
