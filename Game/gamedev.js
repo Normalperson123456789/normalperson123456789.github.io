@@ -49,5 +49,8 @@ $("#buttonkeith6").click(function() {
   $("#buttonkeith6").hide();
   alert("you win")
 });
+$("#buttonnewestsofar").click(function() {
+window.open("/Game/index.html")
+});
 
 });
