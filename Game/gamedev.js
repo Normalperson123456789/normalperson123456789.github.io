@@ -10,6 +10,7 @@ $("#buttonkeith3").hide();
 $("#buttonkeith4").hide();
 $("#buttonkeith5").hide();
 $("#buttonkeith6").hide();
+$("#buttonnewestsofar").hide();
 
 //appear example
 
@@ -27,6 +28,7 @@ $("#buttonkeith").click(function() {
   $("#buttonkeith4").show();
   $("#buttonkeith5").show();
   $("#buttonkeith6").show();
+   $("#buttonnewestsofar").show();
 });
 $("#buttonkeith2").click(function() {
   $("#box2").show();
