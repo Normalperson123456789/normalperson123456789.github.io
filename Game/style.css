@@ -241,5 +241,35 @@ body{
     width: 40px;
   height: 40px;
 
+
+}
+
+
+#box7{
+  width: 10px;
+  height: 10px;
+  margin-left:260px;
+    margin-top:570px;
+   position: absolute;
+}
+
+#box7 img{
+    width: 40px;
+  height: 40px;
+
+  
+}
+#box8{
+  width: 10px;
+  height: 10px;
+  margin-left:300px;
+    margin-top:570px;
+   position: absolute;
+}
+
+#box8 img{
+    width: 40px;
+  height: 40px;
+
   
 }

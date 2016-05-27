@@ -42,6 +42,7 @@ $("#buttonkeith").click(function() {
   $("#buttonkeith6").show();
     $("#buttonkeith7").show();
   $("#buttonkeith8").show();
+  $("#buttonkeith9").show();
   $("#buttonkeith10").show();
   $("#buttonkeith11").show();
   $("#buttonkeith12").show();
@@ -81,13 +82,15 @@ $("#buttonkeith6").click(function() {
 $("#buttonkeith7").click(function() {
   $("#box7").show();
   $("#buttonkeith7").hide();
-  score++;
+  score--;
+  alert("you don't find aeroplanes in fridges!");
   
 });
 $("#buttonkeith8").click(function() {
   $("#box8").show();
   $("#buttonkeith8").hide();
-  score++;
+  alert("you don't find caravans in fridges!");
+  score--;
   
 });
 $("#buttonkeith9").click(function() {
@@ -95,11 +98,13 @@ $("#buttonkeith9").click(function() {
   $("#buttonkeith9").hide();
   score++;
   
+  
 });
 $("#buttonkeith10").click(function() {
   $("#box10").show();
   $("#buttonkeith10").hide();
-  score++;
+  score--;
+alert("you don't find chickens in fridges!");
   
 });
 $("#buttonkeith11").click(function() {
@@ -111,14 +116,14 @@ $("#buttonkeith11").click(function() {
 $("#buttonkeith12").click(function() {
   $("#box12").show();
   $("#buttonkeith12").hide();
-  score++;
-  
+  score--;
+  alert("you don't find toys in fridges!");
 });
 $("#buttonkeith13").click(function() {
   $("#box13").show();
   $("#buttonkeith13").hide();
-  score++;
-  
+  score--;
+  alert("you don't find spaceships in fridges!");
 });
 $("#buttonnewestsofar").click(function() {
 window.open("index.html");
