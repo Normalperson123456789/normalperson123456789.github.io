@@ -130,9 +130,8 @@ else{
 
 
 
-function pi() {
-
-alert("welcome");
+function pi() { 
+  alert("welcome");
 
     var a = prompt("How many digits of pi can you remember after 3.?"); 
 
@@ -203,7 +202,317 @@ var q = prompt(" ");
  if (q === "3"){
  score++;
  
+var r = prompt(" ");
+ 
+ if (r === "8"){
+ score++;
+ 
+var s = prompt(" ");
+ 
+ if (s === "4"){
+ score++;
+ 
+var t = prompt(" ");
+ 
+ if (t === "6"){
+ score++;
+ 
+var u = prompt(" ");
+ 
+ if (u === "2"){
+ score++;
+ 
+var v = prompt(" ");
+ 
+ if (v === "6"){
+ score++;
+ var w = prompt(" ");
+ 
+ if (w === "4"){
+ score++;
+ 
+var x = prompt(" ");
+ 
+ if (x === "3"){
+ score++;
+ 
+var y = prompt(" ");
+ 
+ if (y === "3"){
+ score++;
+ 
+var z = prompt(" ");
+ 
+ if (z === "8"){
+ score++;
+ 
+var aa = prompt(" ");
+ 
+ if (aa === "3"){
+ score++;
+ 
+var bb = prompt(" ");
+ 
+ if (bb === "2"){
+ score++;
+ 
+var cc = prompt(" ");
+ 
+ if (cc === "7"){
+ score++;
+ 
+var dd = prompt(" ");
+ 
+ if (dd === "9"){
+ score++;
+ 
+var ee = prompt(" ");
+ 
+ if (ee === "5"){
+ score++;
+ 
+var ff = prompt(" ");
+ 
+ if (ff === "0"){
+ score++;
+ 
+var gg = prompt(" ");
+ 
+ if (gg === "2"){
+ score++;
+ 
+var hh = prompt(" ");
+ 
+ if (hh === "8"){
+ score++;
+ 
+var ii = prompt(" ");
+ 
+ if (ii === "8"){
+ score++;
+ 
+var jj = prompt(" ");
+ 
+ if (jj === "4"){
+ score++;
+ 
+var kk = prompt(" ");
+ 
+ if (kk === "1"){
+ score++;
+ 
+var ll = prompt(" ");
+ 
+ if (ll === "9"){
+ score++;
+ 
+var mm = prompt(" ");
+ 
+ if (mm === "7"){
+ score++;
+ 
+var nn = prompt(" ");
+ 
+ if (nn === "1"){
+ score++;
+ 
+var oo = prompt(" ");
+ 
+ if (oo === "6"){
+ score++;
+ 
+var pp = prompt(" ");
+ 
+ if (pp === "9"){
+ score++;
+ 
+var qq = prompt(" ");
+ 
+ if (qq === "3"){
+ score++;
+ 
+var rr = prompt(" ");
+ 
+ if (rr === "9"){
+ score++;
+ 
+var ss = prompt(" ");
+ 
+ if (ss === "9"){
+ score++;
+ 
+var tt = prompt(" ");
+ 
+ if (tt === "3"){
+ score++;
+ 
+var uu = prompt(" ");
+ 
+ if (uu === "7"){
+ score++;
+ 
+var vv = prompt(" ");
+ 
+ if (vv === "3"){
+ score++;
+ 
 
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
+ }
+else{
+  score--;
+  alert("you lose");
+}   
  }
 else{
   score--;
@@ -294,25 +603,27 @@ else {
   alert("you lose");
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function score()
