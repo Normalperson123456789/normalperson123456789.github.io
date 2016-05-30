@@ -24,32 +24,32 @@ if (t=== "play again"){
   
   if (o=== "π"){
   alert("good answer");
-   var q = prompt(" what is 67x67?") 
+   var q = prompt(" what is 67x67?") ;
   
   if (q=== "4489"){
   alert("good answer");
   
-   var g = prompt(" what is 92x63?") 
+   var g = prompt(" what is 92x63?") ;
   
   if (g=== "5796"){
   alert("good answer");
    
-    var d = prompt(" what is 31x83?") 
+    var d = prompt(" what is 31x83?") ;
   
   if (d=== "2573"){
   alert("good answer");
  
-    var fg = prompt(" what is 36x36?") 
+    var fg = prompt(" what is 36x36?") ;
   
   if (fg=== "1296"){
   alert("good answer");
  
- var π = prompt(" what is 29x87?") 
+ var π = prompt(" what is 29x87?") ;
   
   if (π=== "2523"){
   alert("good answer");
  
- alert("you win")
+ alert("you win");
   }
   
     else{alert("bad answer")}
