@@ -1,7 +1,7 @@
-var x = 1;
+var xzy = 1;
 var score = 0;
-var y = 2;
-var z = 3;
+var xyz = 2;
+var zyx = 3;
 var kento = "hi ";
 
 function b() {
@@ -978,3 +978,150 @@ function j() {
   alert("#keep going!!!")
 }
 
+function abc() {
+
+alert("welcome")
+alert("can you say the first 5 english words in alphabetical order (do not capitalize words!)")
+var aardvark = prompt("#1")
+
+if (aardvark === "aardvark"){
+
+score++;
+
+var aardwolf = prompt("#2")
+
+if (aardwolf === "aardwolf"){
+
+score++;
+
+var aasvogel = prompt("#3")
+
+if (aasvogel === "aasvogel"){
+
+score++;
+
+var abacuses = prompt("#4")
+=
+if (abacuses == "abacuses"){
+
+score++;
+
+
+
+var abalones = prompt("#5")
+
+if (abalones === "abalones"){
+
+score++;
+
+
+alert("you win")
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+score++;
+
+}
+
+
+
+
+}
+
+
+else{
+  alert("you lose!")
+
+score--:
+
+
+
+
+
+
+
+}
+
+}
+
+
+else{
+  alert("you lose!")
+
+score--:
+
+
+
+
+
+
+
+}
+
+}
+
+
+else{
+  alert("you lose!")
+
+score--:
+
+
+
+
+
+
+
+}
+
+}
+
+
+else{
+  alert("you lose!")
+
+score--:
+
+
+
+
+
+
+
+}
+
+}
+
+
+else{
+  alert("you lose!")
+
+score--:
+
+
+
+
+
+
+
+}
+
+
+
+}
