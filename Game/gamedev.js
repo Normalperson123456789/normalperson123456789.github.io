@@ -1,4 +1,4 @@
-
+  
 $( document ).ready(function() {
 
 var money=0;
@@ -144,6 +144,8 @@ money++;
 
 $("#buttonmoney").click(function() {
 alert("Your money is "+money);
+
+
 });
 });
 
