@@ -1,7 +1,9 @@
 
 $( document ).ready(function() {
 
+var money=0;
 var score=0;
+var tracker=0;
 $("#box2").hide(); //hides apple
 $("#box3").hide(); //hides a thing
 $("#box4").hide(); //hides banana
@@ -72,6 +74,7 @@ $("#buttonkeith5").click(function() {
   $("#box5").show();
   $("#buttonkeith5").hide();
   score++;
+tracker++;
 });
 $("#buttonkeith6").click(function() {
   $("#box6").show();
@@ -132,7 +135,16 @@ $("#buttonscore").click(function() {
 alert("Your score is "+score);
 });
 
+while (tracker == 1){
+
+money++;
 
 
+}
+
+$("#buttonmoney").click(function() {
+alert("Your money is "+money);
 });
+});
+
 

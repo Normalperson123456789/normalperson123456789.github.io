@@ -975,40 +975,39 @@ else {
 
 function j() {
   alert("your score is "+score);
-  alert("#keep going!!!")
 }
 
 function abc() {
 
-alert("welcome")
-alert("can you say the first 5 english words in alphabetical order (do not capitalize words!)")
-var aardvark = prompt("#1")
+alert("welcome");
+alert("can you say the first 5 english words in alphabetical order (do not capitalize words!)");
+var aardvark = prompt("#1");
 
 if (aardvark === "aardvark"){
 
 score++;
 
-var aardwolf = prompt("#2")
+var aardwolf = prompt("#2");
 
 if (aardwolf === "aardwolf"){
 
 score++;
 
-var aasvogel = prompt("#3")
+var aasvogel = prompt("#3");
 
 if (aasvogel === "aasvogel"){
 
 score++;
 
-var abacuses = prompt("#4")
-=
+var abacuses = prompt("#4");
+
 if (abacuses == "abacuses"){
 
 score++;
 
 
 
-var abalones = prompt("#5")
+var abalones = prompt("#5");
 
 if (abalones === "abalones"){
 
@@ -1048,7 +1047,7 @@ score++;
 else{
   alert("you lose!")
 
-score--:
+score--;
 
 
 
@@ -1064,7 +1063,7 @@ score--:
 else{
   alert("you lose!")
 
-score--:
+score--;
 
 
 
@@ -1080,7 +1079,7 @@ score--:
 else{
   alert("you lose!")
 
-score--:
+score--;
 
 
 
@@ -1096,23 +1095,7 @@ score--:
 else{
   alert("you lose!")
 
-score--:
-
-
-
-
-
-
-
-}
-
-}
-
-
-else{
-  alert("you lose!")
-
-score--:
+score--;
 
 
 
@@ -1123,5 +1106,10 @@ score--:
 }
 
 
-
 }
+
+
+
+
+
+
