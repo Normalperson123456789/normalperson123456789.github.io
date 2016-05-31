@@ -52,75 +52,165 @@ $("#buttonkeith").click(function() {
   $("#buttonnewestsofar").show();
 });
 $("#buttonkeith2").click(function() {
+if (money > 2){
   $("#box2").show();
   $("#buttonkeith2").hide();
-  score--;
-  alert("you don't find apples in fridges!");
+  score++;
+    money--;
+      money--;
+        money--;
+  
+}
+ else{
 
+ } 
 });
 $("#buttonkeith3").click(function() {
+ if (money > 2){
   $("#box3").show();
   $("#buttonkeith3").hide();
-  score--;
-  alert("you don't find bananas in fridges!");
+  score++;
+    money--;
+      money--;
+        money--;
+
+}
+ else{
+
+ } 
 });
 $("#buttonkeith4").click(function() {
+  if (money > 2){
   $("#box4").show();
   $("#buttonkeith4").hide();
   score--;
+    money--;
+      money--;
+        money--;
   alert("you don't find people in fridges!");
+}
+ else{
+
+ } 
 });
 $("#buttonkeith5").click(function() {
+ if (money > 2){
   $("#box5").show();
   $("#buttonkeith5").hide();
   score++;
-tracker++;
+    money--;
+      money--;
+        money--;
+
+}
+ else{
+
+ } 
 });
 $("#buttonkeith6").click(function() {
+ if (money > 2){
   $("#box6").show();
   $("#buttonkeith6").hide();
   score++;
-  
+    money--;
+      money--;
+        money--;
+
+}
+ else{
+
+ } 
 });
+
 $("#buttonkeith7").click(function() {
+if (money > 2){
   $("#box7").show();
   $("#buttonkeith7").hide();
   score--;
+    money--;
+      money--;
+        money--;
   alert("you don't find aeroplanes in fridges!");
-  
+}
+ else{
+
+ } 
 });
 $("#buttonkeith8").click(function() {
+  if (money > 2){
   $("#box8").show();
   $("#buttonkeith8").hide();
+  score++;
+    money--;
+      money--;
+        money--;
   alert("you don't find caravans in fridges!");
-  score--;
-  
+}
+ else{
+
+ } 
+
+ 
 });
 $("#buttonkeith9").click(function() {
+ if (money > 2){
   $("#box9").show();
   $("#buttonkeith9").hide();
   score++;
+    money--;
+      money--;
+        money--;
+
+}
+ else{
+
+ } 
   
   
 });
 $("#buttonkeith10").click(function() {
+if (money > 2){
   $("#box10").show();
   $("#buttonkeith10").hide();
   score--;
-alert("you don't find chickens in fridges!");
+    money--;
+      money--;
+        money--;
+  alert("you don't find chickens in fridges!");
+}
+ else{
+
+ } 
   
 });
 $("#buttonkeith11").click(function() {
+ if (money > 2){
   $("#box11").show();
   $("#buttonkeith11").hide();
   score++;
+    money--;
+      money--;
+        money--;
+
+}
+ else{
+
+ } 
   
 });
 $("#buttonkeith12").click(function() {
+  if (money > 2){
   $("#box12").show();
   $("#buttonkeith12").hide();
   score--;
+    money--;
+      money--;
+        money--;
   alert("you don't find toys in fridges!");
+}
+ else{
+
+ } 
 });
 $("#buttonkeith13").click(function() {
   $("#box13").show();
@@ -142,11 +232,22 @@ money++;
 
 }
 
+
+
+
 $("#buttonmoney").click(function() {
 alert("Your money is "+money);
 
 
 });
+$("#buttonmoneyplus").click(function() {
+money++;
+
+
+
+
+});
+
 });
 
 

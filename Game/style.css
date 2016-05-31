@@ -273,3 +273,90 @@ body{
 
   
 }
+#box9{
+  width: 10px;
+  height: 10px;
+  margin-left:340px;
+    margin-top:570px;
+   position: absolute;
+}
+
+#box9 img{
+    width: 40px;
+  height: 40px;
+
+  
+}
+#box10{
+  width: 10px;
+  height: 10px;
+  margin-left:380px;
+    margin-top:570px;
+   position: absolute;
+}
+
+#box10 img{
+    width: 40px;
+  height: 40px;
+
+  
+}
+#box11{
+  width: 10px;
+  height: 10px;
+  margin-left:420px;
+    margin-top:570px;
+   position: absolute;
+}
+
+#box11 img{
+    width: 40px;
+  height: 40px;
+
+  
+}
+#box12{
+  width: 10px;
+  height: 10px;
+  margin-left:460px;
+    margin-top:570px;
+   position: absolute;
+}
+
+#box12 img{
+    width: 40px;
+  height: 40px;
+
+  
+}
+#box13{
+  width: 10px;
+  height: 10px;
+  margin-left:500px;
+    margin-top:570px;
+   position: absolute;
+}
+
+#box13 img{
+    width: 40px;
+  height: 40px;
+
+  
+}
+#buttonmoneyplus{
+
+
+width: 150px;
+height:50px;
+background-image:url("http://www.clker.com/cliparts/d/8/s/u/4/b/coin-1.svg");
+background-size: 50px 50px;
+background-color: red;
+font-size:15px;
+color:blue;
+}
+#buttonmoneyplus:hover{
+color:rgb(255, 144, 122);
+
+
+}
+
