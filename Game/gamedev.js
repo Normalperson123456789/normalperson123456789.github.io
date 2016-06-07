@@ -16,6 +16,7 @@ $("#box10").hide();
 $("#box11").hide();
 $("#box12").hide();
 $("#box13").hide();
+$("#box14").hide();
 
 $("#buttonkeith2").hide();
 $("#buttonkeith3").hide();
@@ -29,6 +30,7 @@ $("#buttonkeith10").hide();
 $("#buttonkeith11").hide();
 $("#buttonkeith12").hide();
 $("#buttonkeith13").hide();
+$("#buttonmoneymaker").hide();
 $("#buttonnewestsofar").hide();
 $("#buttonscore").show();
 //appear example
@@ -49,6 +51,7 @@ $("#buttonkeith").click(function() {
   $("#buttonkeith11").show();
   $("#buttonkeith12").show();
   $("#buttonkeith13").show();
+   $("#buttonmoneymaker").show();
   $("#buttonnewestsofar").show();
 });
 $("#buttonkeith2").click(function() {
@@ -218,6 +221,20 @@ $("#buttonkeith13").click(function() {
   score--;
   alert("you don't find spaceships in fridges!");
 });
+$("buttonmoneyauto").click(function() {
+$("boxmoneyauto").show();
+$("buttonmoneyauto").hide();
+tracker++;
+
+while (tracker = 1){
+
+money++;
+
+
+}
+});
+
+
 $("#buttonnewestsofar").click(function() {
 window.open("index.html");
 });
@@ -225,12 +242,8 @@ $("#buttonscore").click(function() {
 alert("Your score is "+score);
 });
 
-while (tracker == 1){
-
-money++;
 
 
-}
 
 
 
@@ -247,7 +260,14 @@ money++;
 
 
 });
+$("#buttonscoreexchange").click(function() {
+
+money--;
+score++;
+
 
 });
+});
+
 
 
